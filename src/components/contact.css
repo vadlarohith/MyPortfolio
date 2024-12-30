@@ -1,0 +1,132 @@
+.ContactSection {
+    background-color: #dedede;
+    padding-top: 30px;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #dedede;
+    min-height: 100vh;
+  }
+  
+  .contact-form-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-form1 {
+    padding: 0px;
+    width: 80%;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #212837;
+    color: #ffffff;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #129c8e;
+    box-shadow: 0 0 5px #26A69A;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 25%;
+    background-color: #129c8e;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0f897d;
+  }
+  
+  .contact-info-container {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: end;
+  }
+  
+  .emailheading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .social{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .contact-info-container h3{
+    margin-right: 30px;
+    font-size: 20px;
+    color: #129c8e;
+  }
+
+  .social-icons {
+    display: flex;
+    margin-left: auto;
+    justify-content: end;
+    margin-right: 30px;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #129c8e;
+  }
+  
+  .connectwithme{
+    font-size: 30px;
+    color: #26A69A;
+    font-weight: bold;
+  }
