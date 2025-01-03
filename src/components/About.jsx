@@ -24,7 +24,7 @@ const AboutMe = () => {
           <h2 className="text-3xl font-semibold mb-4">Technologies and Tools:</h2>
           <div className="flex flex-wrap justify-center gap-6 techdiv">
             {/* Example Technology Cards */}
-            <div className="bg-white p-4 shadow-lg rounded-lg" >
+            <div className="bg-white p-4 shadow-lg rounded-lg">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
                 alt="Python"

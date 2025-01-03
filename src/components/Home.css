@@ -2,22 +2,47 @@
   background-color:#0e141f;
 }
 
-.photodiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto; /* Ensures photo scales properly */
+/* Global fixes for mobile responsiveness */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Specific styles for the Home component */
+.photo1 {
+  width: 25rem; /* Smaller size for mobile */
+  height: 25rem;
+  border-radius: 50%; /* Circular image */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.photo1:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Larger photo size for desktop */
+@media (max-width: 700px) {
+  .photo1 {
+      width: 14rem;
+      height: 14rem;
   }
-  
-  .myphoto {
-    width: 500px; /* Adjust width as needed */
-    height: 500px; /* Adjust height as needed */
-    border-radius: 50%; /* Makes the photo circular */
-    
-    margin-left: 50px;
+  body{
+    margin-top: 30px;
   }
+}
+
+/* Fix for white space issue */
+.container {
+  max-width: 100%; /* Ensure no extra horizontal space */
+}
+
+
+
+
   .namediv{
-    margin-left: 100px;
+    margin-left: 0px;
   }
   .techdiv {
     margin: 20px 50px 0px 50px;
@@ -170,4 +195,34 @@
 }
 .contactform div{
   width: 50%;
+}
+.namediv{
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+/* Larger photo size for desktop */
+@media (max-width: 700px) {
+  .photo1 {
+      width: 14rem;
+      height: 14rem;
+  }
+  
+  .name{
+    font-size:xx-large;
+  }
+  .name1{
+    font-size: medium;
+  }
+  .techdiv{
+    margin: 10px 20px 0 20px;
+  }
+  .techdiv div{
+    width: 120px;
+    height: 130px;
+  }
+  .namediv{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

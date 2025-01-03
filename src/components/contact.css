@@ -11,6 +11,8 @@
     background-color: #dedede;
     min-height: 100vh;
   }
+
+  
   
   .contact-form-container {
     width: 50%;
@@ -129,4 +131,73 @@
     font-size: 30px;
     color: #26A69A;
     font-weight: bold;
+  }
+
+  @media (max-width: 777px) {
+    .contact-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: none;
+        margin-left: 0;
+        padding: 0;
+    }
+    .contact-form-container{
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      
+    }
+    .contact-form1{
+      width: 100%;
+      margin-left: 0;
+    }
+    .form-group{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .connectwithme{
+      text-align: center;
+    }
+    .submit-button{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact-info-container{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .emailheading{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 0;
+      text-wrap:wrap;
+    }
+    .emailheading1{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 0;
+      text-wrap:wrap;
+      font-size: 10px;
+    }
+    .emailheading1 h3{
+      font-size: medium;
+    }
+    .social{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .social-icons{
+      margin-left: auto;
+      margin-right: auto;
+
+    }
   }
