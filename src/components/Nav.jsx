@@ -56,6 +56,7 @@
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'; // For hamburger and close icons
+import "./Nav.css"
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -64,7 +65,7 @@ const Nav = () => {
         <nav className="Navbar1 bg-gray-800 text-white fixed top-0 left-0 w-full shadow-lg z-50">
             <div className="container mx-auto flex justify-between items-center py-4 px-6">
                 {/* Logo */}
-                <div className="text-xl font-bold">RohithVadla</div>
+                <div className="text-xl font-bold logo-text">RohithVadla</div>
 
                 {/* Hamburger Menu Icon */}
                 <button
@@ -80,7 +81,7 @@ const Nav = () => {
                         to="Home"
                         smooth={true}
                         duration={500}
-                        className="cursor-pointer hover:text-gray-300"
+                        className="cursor-pointer hover:text-gray-300 text-hover-underline"
                     >
                         Home
                     </Link>
@@ -88,7 +89,7 @@ const Nav = () => {
                         to="About"
                         smooth={true}
                         duration={500}
-                        className="cursor-pointer hover:text-gray-300"
+                        className="cursor-pointer hover:text-gray-300 text-hover-underline"
                     >
                         About
                     </Link>
@@ -96,7 +97,7 @@ const Nav = () => {
                         to="Projects"
                         smooth={true}
                         duration={500}
-                        className="cursor-pointer hover:text-gray-300"
+                        className="cursor-pointer hover:text-gray-300 text-hover-underline"
                     >
                         Projects
                     </Link>
@@ -104,7 +105,7 @@ const Nav = () => {
                         to="Contact"
                         smooth={true}
                         duration={500}
-                        className="cursor-pointer hover:text-gray-300"
+                        className="cursor-pointer hover:text-gray-300 text-hover-underline"
                     >
                         Contacts
                     </Link>
@@ -121,7 +122,7 @@ const Nav = () => {
                     to="Home"
                     smooth={true}
                     duration={500}
-                    className="block py-4 px-6 border-b border-gray-700 hover:bg-gray-700"
+                    className="block py-4 px-6 border-b border-gray-700 hover:bg-gray-700 "
                     onClick={() => setMenuOpen(false)}
                 >
                     Home

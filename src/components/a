@@ -1,0 +1,27 @@
+
+  /* Base styles for the text */
+.text-hover-underline {
+    display: inline-block; /* Ensures underline aligns with text */
+    position: relative;
+    color: #333; /* Change color as needed */
+    text-decoration: none;
+  }
+  
+  /* Underline effect */
+  .text-hover-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background: linear-gradient(90deg, #0ff, #00f, #f0f);
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .text-hover-underline:hover::after {
+    width: 100%; /* Expand underline to full width */
+  }

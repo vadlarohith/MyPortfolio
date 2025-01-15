@@ -33,8 +33,8 @@ const projects = [
   {
     id: 4,
     image: "https://5.imimg.com/data5/SELLER/Default/2024/6/425432911/OJ/LJ/SN/133975128/scan-code-cards.png",
-    title: "Marriage Card",
-    description: "The Static page that proffesional marriage invitation.",
+    title: "Wedding Invitation",
+    description: "The Static page that proffesional wedding invitation.",
     githubLink: "https://github.com/username/project3",
   },
   
